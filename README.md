@@ -11,4 +11,4 @@ Pasando a qué es lo que podemos ver en nuestra pantalla a lo largo del tiempo, 
 Todo el resto de teclas a exepcion de enter generaran la misma tecla en color y ubicacion random, finalmente una vez la persona quede satisfecha con el resultado se tiene la posibilidad de apretar enter, el cual iniciara un loop que genera multiples recuadros de color negro con texto en blanco en que se lee ¿Puedes llamar a esto realmente tu obra? buscando hacer hincapié en la idea de criticar en el proyecto.
 
 
-En cuanto al diagrama de flujo corrspondiente, se tuvo una primera version la cual es la siguiente ![Mi imagen](Diagramainicial.png)
+En cuanto al diagrama de flujo corrspondiente, se tuvo una primera version la cual es la siguiente ![Mi imagen](Diagrama inicial.png)
