@@ -11,4 +11,15 @@ Pasando a qué es lo que podemos ver en nuestra pantalla a lo largo del tiempo, 
 Todo el resto de teclas a exepcion de enter generaran la misma tecla en color y ubicacion random, finalmente una vez la persona quede satisfecha con el resultado se tiene la posibilidad de apretar enter, el cual iniciara un loop que genera multiples recuadros de color negro con texto en blanco en que se lee ¿Puedes llamar a esto realmente tu obra? buscando hacer hincapié en la idea de criticar en el proyecto.
 
 
-En cuanto al diagrama de flujo corrspondiente, se tuvo una primera version la cual es la siguiente ![Mi imagen](Diagrama_inicial.png) Posteriormente se busco orientacion de alguien que tuviera más experiencia en la realisaciond de estos y en base a esas correcciones se cambio al siguiente. ![Mi imagen](Diagrama_corregido_1.1.png) ![Mi imagen](Diagrama_corregido_1.2.png) ![Mi imagen](Diagrama_corregido_1.3.png)
+En cuanto al diagrama de flujo correspondiente, se tuvo una primera versión la cual es la siguiente ![Mi imagen](Diagrama_inicial.png) Posteriormente se buscó orientación de alguien que tuviera más experiencia en la realización de estos y en base a esas correcciones se cambió al siguiente. ![Mi imagen](Diagrama_corregido_1.1.png) ![Mi imagen](Diagrama_corregido_1.2.png) ![Mi imagen](Diagrama_corregido_1.3.png)
+
+Tal como muestra el diagrama corregido, existen múltiples opciones de interactividad independientes unas de otras, buscando que si bien la persona tenga influencia en la creación de una obra, no puedan controlar cosas como color y orientación, haciendo referencia a como al momento de generar imágenes con inteligencia artificial, si bien se pueden dar parámetros, la persona no decide todo en la obra.
+
+El código se basa en la interacción con teclas, al momento de presionar la tecla correspondiente como por ejemplo el 4 (ya explicado anteriormente) este generará un cuadrado con coordenadas random, color random y rotación random. En caso de el fondo de color estos funcionan con array, si precionas 1 se selecciona la opcion 0 en el array que corresponde a un tono de rojo random, en caso del dos, seleciona el 1 que es un tono random de verde y por concecuencia el 3 corresponde al 2, un tono random de azul.
+
+
+Para el loop de este código me vi obligada a consultar con un estudiante de licenciatura en matematicas que ya a trabajado con codigo, debido a que la dificultad se escapaba de mis manos, en base a sus consejos es que puse limpiar y organizar de mejor manera mi código y a la vez fue posible lograr el loop deseado. la parte más compleja era que el loop aprendido en clases usa solo 2 coordenadas, en cambio con un cuadrado este usa 8. Debido a esto es que se aplicó la siguiente lógica, para que el espacio sobrante entre cuadrado y cuadrado esté distribuido, se resta el espacio ocupado por todos los cuadrados que caben tanto de manera vertical como horizontal y posteriormente dividiendo ese espacio en 5 para el presente caso en horizontal. De esta manera es que las coordenadas necesarias para cada cuadrado nacen de las coordenadas dadas por el proceso anterior, para el texto, se orientó de manera manual.
+
+Doy especiales agradecimientos a Felipe Paredes quien me dio recomendaciones para lograr el efecto deseado con mi código.
+
+https://editor.p5js.org/josefa.luque/sketches/-wKy1AMd9
